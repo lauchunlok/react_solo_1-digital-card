@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #23252c;
+  margin: 0;
+}
+
+main {
+  margin: 44px auto;
+  background: #1a1b21;
+  width: 317px;
+
+  border-radius: 10px 10px 10px 10px;
+}
+
+.info--pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
+.info--name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin-bottom: 7px;
+}
+
+.info--title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  margin-top: 0px;
+  color: #f3bf99;
+}
+
+.info--site {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.btn {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  justify-content: center;
+}
+
+.email-btn {
+  /* Button */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 468px;
+
+  /* white */
+
+  background: #ffffff;
+  /* gray/300 */
+
+  border: 1px solid #d1d5db;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  margin-right: 10px;
+  color: #374151;
+  text-decoration: none;
+
+  color: #374151;
+  justify-content: center;
+}
+
+.linkedin-btn {
+  /* Button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 468px;
+
+  background: #5093e2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.heading {
+  /* About */
+  width: 242.71px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #f5f5f5;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  width: 247px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 15px */
+  color: #dcdcdc;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  /* align the icon in the center */
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
