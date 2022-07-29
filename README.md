@@ -6,7 +6,7 @@ Design file: https://www.figma.com/file/4ctPLUvIn5b5Ep6YPOZWWd/Digital-Business-
 
 1. Container - Break the DOM into two parts: body (background color) and main (business card)
 2. Responsive main (via margin)
-3. Button-like <a> tag & Embed imgae & flexbox
+3. Button-like `<a>` tag & Embedded image & flexbox
 4. Center icons Vertically in Footer
 
 ### Improvement:
